@@ -190,7 +190,7 @@ app.use("/listing",listingroute);
 app.use("/listing/:id/review",reviewsroute);
 
 app.get("", (req, res) => {
-  res.send("Welcome to Wanderlust");
+  res.redirect("/listing");
 });
 
 // app.get("/register", async (req,res)=>{
