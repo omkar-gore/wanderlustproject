@@ -2,7 +2,7 @@ require("dotenv").config();
 const mongoose=require ("mongoose");
 const Schema = mongoose.Schema;
 const review = require ("./review.js");
-const dburl=process.env.ALTAS_KEY;
+const dburl=process.env.DB_URL;
 async function main(){
     await mongoose.connect(dburl);
 }

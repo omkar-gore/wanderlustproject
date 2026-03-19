@@ -125,10 +125,8 @@ const flash=require("connect-flash");
 const passport=require("passport");
 const LocalStrategy = require("passport-local");
 const User=require("./models/user.js");
-const dburl=process.env.ALTAS_KEY;
+const dburl=process.env.DB_URL;
 const secret=process.env.SECRET;
-
-
 
 app.engine("ejs", ejsmate);
 app.set("view engine", "ejs");
