@@ -1,0 +1,26 @@
+<%- layout("/layouts/boilarplate.ejs") %>
+<body>
+    <!-- <form method="get" action="/listing/new">
+        <button type="submit">Add New Place</button>
+    </form> -->
+    <%- include("../includes/slide.ejs") %>
+     <div class="card_container row row-col-lg-4 row-col-md-3 row-col-sm-2" >
+        <%for(list of listings){%>
+        <div class="card" style="width: 18rem;">
+             <a href="/listing/<%=list.id%>">
+        <img src='<%= list.image.url %>' class="card-img-top" alt="">
+        <div class="card-body">
+            <p class="card-text">
+                <a href="http://localhost:2005/listing/<%=list.id%>"><%= list.title %></a>
+                <p class="card-price">&#8377;<%= list.price.toLocaleString("en-IN") %>/night <span class="gst-info d-none">( +18% GST )</span></p>
+            </p>
+        </div>
+         </a>
+    </div>
+   
+     <%}%>
+     </div>
+</body>
+<script>
+    let taxSwitch = document.getElementById("switchCheckDefault");
+</script>

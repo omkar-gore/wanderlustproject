@@ -1,0 +1,215 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+/* new ejs heading */
+.new_heading{
+    text-align: center;
+}
+.new_form{
+    margin-bottom: 2rem;
+}
+
+/* navbar style */
+.navbar{
+    height: 4rem;
+    background-color: white;
+    margin-bottom:1rem ;
+}
+ 
+.nav-left{
+    width: 10px !important;
+}
+.nav-link{
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+}
+.navbar-brand{
+    font-size: 1.7rem !important;
+}
+.navbar-brand i{
+    color: rgb(234, 71, 71);
+    margin-left: 0.5rem;
+}
+
+.navsearch{
+    border-radius: 25px !important;
+}
+
+.sebtn{
+/* font-size: 0.8rem !important;
+
+height: 3rem;
+border-radius: 25px !important;
+background-color: rgb(234, 71, 71)!important; */
+border-radius:25px !important;
+background-color: rgb(234,71,71)!important;
+color:white !important;
+display:flex;
+align-items:center;
+gap:5px;
+border: 1px solid white !important;
+}
+.sebtn:hover{
+opacity: 0.7!important;
+}
+.sebtn i,span{
+    color: #ededed;
+}
+
+.tax-check{
+    margin-right: 1rem;
+}
+/* footer style */
+
+.fi_nfo{
+    height: 6rem;
+    /* background-color: rgb(161, 164, 167);*/
+    background-color: #ededed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+} 
+
+.fi_nfo_social{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.f_info_links{
+    width: 100%;
+    /* font-size: 1rem; */
+}
+.f_info_links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f_info_links a:hover {
+    text-decoration: underline;
+}
+
+/* review cards */
+
+.review-card {
+    border: 1px solid black;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* card style */
+
+.gst-info{
+    color: green;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+.card{
+    width: 19.5rem !important;
+    border: none !important;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    margin: 0rem 0rem 1rem 0.5rem;
+}
+.card:hover{
+     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-body{
+    padding: 0rem !important;
+}
+
+.card-text a{
+    font-weight: 400;
+    color: #222222 !important;
+    text-decoration: none;
+}
+.card-price{
+    color: #222222;
+    opacity: 0.7 !important;
+ }
+
+ .card-img-top{
+    margin-top: 0.5rem;
+    border: none !important;
+    border-radius:1rem !important;
+    height: 20rem !important;
+ }
+  .showimg:hover{
+    opacity: 1 !important;
+ }
+ .card-img-top:hover{
+    opacity: 0.7;
+ }
+
+
+ .new_submit{
+    background-color: rgb(234, 71, 71) !important;
+    border:  rgb(234, 71, 71) !important;;
+ }
+
+ .showcard{
+     width: 40rem !important;
+     margin: 0px !important;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     margin-bottom: 2rem !important;
+ }
+
+
+ /* chatgpt extra */
+ html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full viewport height */
+}
+
+.content-wrap {
+    flex: 1; /* takes all remaining space */
+}
+
+.slide-con{
+    display: flex;
+    width: 70vw;
+    margin-bottom: 1.5rem;
+    gap: 2rem;            /* space between items */
+    overflow-x: auto;   /* horizontal scroll if needed */
+}
+
+.slide-ele{
+    height: 4rem;
+    width: 6rem;
+    background-color:white;
+    text-align: center;
+    transition: opacity 0.3s ease;
+    border: none !important;
+     box-shadow: 1px 1px 3px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.slide-con i{
+    font-size: 1.5rem;
+}
+
+.slide-con p{
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+}
+.slide-ele:hover{
+    opacity: 0.5;
+     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: style your footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
